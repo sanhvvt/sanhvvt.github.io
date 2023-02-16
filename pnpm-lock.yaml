@@ -752,6 +752,9 @@ packages:
     resolution: {integrity: sha512-rBQVxNoSDooqgWkQg2MqkIHkH/huNuvXGqui5wijc1zLnU7TKzbBHW9VGmbnV4asNTmIHmqV4Nvt0M2rZ/9nHA==}
     peerDependencies:
       vue: '>=3'
+    peerDependenciesMeta:
+      vue:
+        optional: true
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
@@ -1151,6 +1154,9 @@ packages:
     engines: {node: ^14.16.0 || ^16.10.0 || ^17.0.0 || ^18.0.0 || ^19.0.0}
     peerDependencies:
       vue: ^3.2.47
+    peerDependenciesMeta:
+      vue:
+        optional: true
     dependencies:
       '@nuxt/kit': 3.2.0_rollup@3.15.0
       '@rollup/plugin-replace': 5.0.2_rollup@3.15.0
@@ -1468,6 +1474,9 @@ packages:
     resolution: {integrity: sha512-UCwgY4MbQEnFUo+/xmzBPK3PjC+oeCCzSsgK6eLk3vUC8Cuarrvw06wy8s0cO94DkpAi56Ih9oRWA16a/tih1A==}
     peerDependencies:
       vue: '>=2.7 || >=3'
+    peerDependenciesMeta:
+      vue:
+        optional: true
     dependencies:
       '@unhead/schema': 1.0.21
       hookable: 5.4.2
@@ -1505,6 +1514,9 @@ packages:
     peerDependencies:
       vite: ^4.0.0
       vue: ^3.0.0
+    peerDependenciesMeta:
+      vue:
+        optional: true
     dependencies:
       '@babel/core': 7.20.12
       '@babel/plugin-transform-typescript': 7.20.13_@babel+core@7.20.12
@@ -1521,6 +1533,9 @@ packages:
     peerDependencies:
       vite: ^4.0.0
       vue: ^3.2.25
+    peerDependenciesMeta:
+      vue:
+        optional: true
     dependencies:
       vite: 4.1.1
       vue: 3.2.47
@@ -1650,6 +1665,9 @@ packages:
     resolution: {integrity: sha512-dN9gc1i8EvmP9RCzvneONXsKfBRgqFeFZLurmHOveL7oH6HiFXJw5OGu294n1nHc/HMgTy6LulU/tv5/A7f/LA==}
     peerDependencies:
       vue: 3.2.47
+    peerDependenciesMeta:
+      vue:
+        optional: true
     dependencies:
       '@vue/compiler-ssr': 3.2.47
       '@vue/shared': 3.2.47
@@ -1676,6 +1694,9 @@ packages:
     resolution: {integrity: sha512-ACfRqD3bbh92cIzDDR1CmqShXCXhQv/EUUcaDMYaexA4ulorYHd+2Yo5/ljoS4jDoMgsqBSP0XJZT3nySMB5gw==}
     peerDependencies:
       vue: '>=2.7 || >=3'
+    peerDependenciesMeta:
+      vue:
+        optional: true
     dependencies:
       '@unhead/dom': 1.0.21
       '@unhead/schema': 1.0.21
@@ -1868,6 +1889,9 @@ packages:
     hasBin: true
     peerDependencies:
       postcss: ^8.1.0
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       browserslist: 4.21.5
       caniuse-lite: 1.0.30001452
@@ -1952,7 +1976,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001452
-      electron-to-chromium: 1.4.297
+      electron-to-chromium: 1.4.298
       node-releases: 2.0.10
       update-browserslist-db: 1.0.10_browserslist@4.21.5
     dev: true
@@ -2337,6 +2361,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14}
     peerDependencies:
       postcss: ^8.0.9
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss: 8.4.21
     dev: true
@@ -2375,6 +2402,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       css-declaration-sorter: 6.3.1_postcss@8.4.21
       cssnano-utils: 3.1.0_postcss@8.4.21
@@ -2413,6 +2443,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss: 8.4.21
     dev: true
@@ -2422,6 +2455,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       cssnano-preset-default: 5.2.14_postcss@8.4.21
       lilconfig: 2.0.6
@@ -2621,8 +2657,8 @@ packages:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
     dev: true
 
-  /electron-to-chromium/1.4.297:
-    resolution: {integrity: sha512-dTXLXBdzfDYnZYq+bLer21HrFsEkzlR2OSIOsR+qroDmhmQU3i4T4KdY0Lcp83ZId3HnWTpPAEfhaJtVxmS/dQ==}
+  /electron-to-chromium/1.4.298:
+    resolution: {integrity: sha512-dJZurgxDeaqn90VmS23Xz+QPQQl84BxnlAfwCDFNjfEhqO2yLMDkeaDoJ1yPXAbmiqTi+hd5TpB5zi1N4hwBuQ==}
     dev: true
 
   /emoji-regex/8.0.0:
@@ -4919,6 +4955,9 @@ packages:
     resolution: {integrity: sha512-SmWMSJmB8MRnnULldx0lQIyhSNvuDl9HfrZkaqqE/WHAhToYsAvDq+yAsA/kIyINDszOp3Rh0GFoNuH5Ypsm3Q==}
     peerDependencies:
       postcss: ^8.2.2
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss: 8.4.21
       postcss-selector-parser: 6.0.11
@@ -4930,6 +4969,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       browserslist: 4.21.5
       caniuse-api: 3.0.0
@@ -4943,6 +4985,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       browserslist: 4.21.5
       postcss: 8.4.21
@@ -4954,6 +4999,9 @@ packages:
     engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
       postcss: ^8.4
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       '@csstools/cascade-layer-name-parser': 1.0.1_3cwabixgovb7jwtbsdb6ktsak4
       '@csstools/css-parser-algorithms': 2.0.1_xu4ijqbgbw3jz65fprqzqcck3y
@@ -4966,6 +5014,9 @@ packages:
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.2.14
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dev: true
 
   /postcss-discard-comments/5.1.2_postcss@8.4.21:
@@ -4973,6 +5024,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss: 8.4.21
     dev: true
@@ -4982,6 +5036,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss: 8.4.21
     dev: true
@@ -4991,6 +5048,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss: 8.4.21
     dev: true
@@ -5000,6 +5060,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss: 8.4.21
     dev: true
@@ -5015,6 +5078,9 @@ packages:
     engines: {node: '>=14.0.0'}
     peerDependencies:
       postcss: ^8.0.0
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss: 8.4.21
       postcss-value-parser: 4.2.0
@@ -5027,6 +5093,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss: 8.4.21
       postcss-value-parser: 4.2.0
@@ -5038,6 +5107,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       browserslist: 4.21.5
       caniuse-api: 3.0.0
@@ -5051,6 +5123,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss: 8.4.21
       postcss-value-parser: 4.2.0
@@ -5061,6 +5136,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       colord: 2.9.3
       cssnano-utils: 3.1.0_postcss@8.4.21
@@ -5073,6 +5151,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       browserslist: 4.21.5
       cssnano-utils: 3.1.0_postcss@8.4.21
@@ -5085,6 +5166,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss: 8.4.21
       postcss-selector-parser: 6.0.11
@@ -5095,6 +5179,9 @@ packages:
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.2.14
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss-selector-parser: 6.0.11
     dev: true
@@ -5104,6 +5191,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss: 8.4.21
     dev: true
@@ -5113,6 +5203,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss: 8.4.21
       postcss-value-parser: 4.2.0
@@ -5123,6 +5216,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss: 8.4.21
       postcss-value-parser: 4.2.0
@@ -5133,6 +5229,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss: 8.4.21
       postcss-value-parser: 4.2.0
@@ -5143,6 +5242,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss: 8.4.21
       postcss-value-parser: 4.2.0
@@ -5153,6 +5255,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss: 8.4.21
       postcss-value-parser: 4.2.0
@@ -5163,6 +5268,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       browserslist: 4.21.5
       postcss: 8.4.21
@@ -5174,6 +5282,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       normalize-url: 6.1.0
       postcss: 8.4.21
@@ -5185,6 +5296,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss: 8.4.21
       postcss-value-parser: 4.2.0
@@ -5195,6 +5309,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       cssnano-utils: 3.1.0_postcss@8.4.21
       postcss: 8.4.21
@@ -5206,6 +5323,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       browserslist: 4.21.5
       caniuse-api: 3.0.0
@@ -5217,6 +5337,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss: 8.4.21
       postcss-value-parser: 4.2.0
@@ -5235,6 +5358,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss: 8.4.21
       postcss-value-parser: 4.2.0
@@ -5246,6 +5372,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       postcss: 8.4.21
       postcss-selector-parser: 6.0.11
@@ -5256,6 +5385,9 @@ packages:
     engines: {node: '>=10'}
     peerDependencies:
       postcss: ^8.0.0
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       make-dir: 3.1.0
       mime: 2.5.2
@@ -5904,6 +6036,9 @@ packages:
     engines: {node: ^10 || ^12 || >=14.0}
     peerDependencies:
       postcss: ^8.2.15
+    peerDependenciesMeta:
+      postcss:
+        optional: true
     dependencies:
       browserslist: 4.21.5
       postcss: 8.4.21
@@ -6520,6 +6655,8 @@ packages:
     peerDependenciesMeta:
       '@vue/composition-api':
         optional: true
+      vue:
+        optional: true
     dev: true
 
   /vue-devtools-stub/0.1.0:
@@ -6530,6 +6667,9 @@ packages:
     resolution: {integrity: sha512-DYWYwsG6xNPmLq/FmZn8Ip+qrhFEzA14EI12MsMgVxvHFDYvlr4NXpVF5hrRH1wVcDP8fGi5F4rxuJSl8/r+EQ==}
     peerDependencies:
       vue: ^3.2.0
+    peerDependenciesMeta:
+      vue:
+        optional: true
     dependencies:
       '@vue/devtools-api': 6.5.0
       vue: 3.2.47
