@@ -3,6 +3,9 @@ export default defineNuxtConfig({
   experimental: {
     payloadExtraction: false,
   },
+  app: {
+    baseURL: '/',
+  },
   content: {
     highlight: {
       preload: [
