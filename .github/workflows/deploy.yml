@@ -40,7 +40,7 @@ jobs:
           version: 7
 
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --no-frozen-lockfile
 
       - name: Generate
         env:
@@ -48,7 +48,7 @@ jobs:
           # NUXT_APP_BASE_URL: /${{ matrix.deploy-repo }}/
           # HOSTNAME: https://sanhvvt.github.io/
           NODE_OPTIONS: --max_old_space_size=4096
-        run: pnpm generate
+        run: pnpm build
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4.0.0

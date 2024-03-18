@@ -10,3 +10,9 @@ dist
 sw.*
 .env
 .output
+
+node_modules/
+.vitepress/cache/
+.vitepress/.cache/
+.vitepress/.temp/
+.vitepress/dist/
